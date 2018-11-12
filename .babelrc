@@ -11,7 +11,12 @@
            
            "locals": ["module"]
          }]
-       }]]
+       }],["import", {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css" 
+      }]
+      ]
       }
     }
   }

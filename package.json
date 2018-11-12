@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/wucaixu/For-Sibyl#readme",
   "dependencies": {
+    "antd": "^3.10.7",
     "babel-polyfill": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "react": "^16.6.1",

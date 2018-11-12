@@ -9,7 +9,7 @@ module.exports = {
     },
     devtool: 'eval-source-map',
     devServer: {
-        contentBase: "./public",//本地服务器所加载的页面所在的目录
+        contentBase: "./build",//本地服务器所加载的页面所在的目录
         historyApiFallback: true,//不跳转
         inline: true//实时刷新
     },
@@ -43,11 +43,11 @@ module.exports = {
     mode: 'production',
     plugins: [
         new webpack.BannerPlugin('版权所有，翻版必究'),
-        new CleanWebpackPlugin('build/*.*', {
-            root: __dirname,
-            verbose: true,
-            dry: false
-        })
+        // new CleanWebpackPlugin('build/*.*', {
+        //     root: __dirname,
+        //     verbose: true,
+        //     dry: false
+        // })
     ],
 };
 

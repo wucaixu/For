@@ -70,11 +70,7 @@ class SiderDemo extends Component {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-<<<<<<< HEAD
-            asdfgghjjkklkljhjdjljdjklgasdfghjkl;sdfghjksdfghjk
-=======
             ig ig ig ig ig ig ig ig ig ig ---c7---again----next again
->>>>>>> c7
           </Footer>
         </Layout>
       </Layout>

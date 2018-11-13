@@ -65,7 +65,7 @@ class SiderDemo extends React.Component {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            asdfgghjjkklkljhjdjljdjklg
+            asdfgghjjkklkljhjdjljdjklgasdfghjkl;sdfghjksdfghjk
           </Footer>
         </Layout>
       </Layout>

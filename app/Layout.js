@@ -70,7 +70,7 @@ class SiderDemo extends Component {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            ig ig ig ig ig ig ig ig ig ig
+            ig ig ig ig ig ig ig ig ig ig ---c7---
           </Footer>
         </Layout>
       </Layout>

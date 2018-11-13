@@ -6,7 +6,11 @@ class Greeter extends Component{
   render() {
     return (
       <div className={styles.root}> //使用cssModule添加类名的方法
+<<<<<<< HEAD
         {config.greetText}--远端c1--c1更改
+=======
+        {config.greetText} 远端分支连接--c4---ant1
+>>>>>>> ant1
       </div>
     );
   }

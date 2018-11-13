@@ -65,7 +65,11 @@ class SiderDemo extends React.Component {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
+<<<<<<< HEAD
             asdfgghjjkklkljhjdjljdjklgasdfghjkl;sdfghjksdfghjk
+=======
+            asdfgghjjkklklj
+>>>>>>> ant1
           </Footer>
         </Layout>
       </Layout>

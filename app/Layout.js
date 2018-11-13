@@ -1,15 +1,20 @@
 import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+import React, {Component} from 'react';
 
 
 const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
 
-class SiderDemo extends React.Component {
-  state ={
-    collapsed: false,
-  };
+class SiderDemo extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      collapsed: false,
+    }
+    this.onCollapse=this.onCollapse.bind(this)
+  }
 
-  onCollapse = (collapsed) => {
+  onCollapse() {
     console.log(collapsed);
     this.setState({ collapsed });
   }
@@ -65,11 +70,7 @@ class SiderDemo extends React.Component {
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-<<<<<<< HEAD
-            asdfgghjjkklkljhjdjljdjklgasdfghjkl;sdfghjksdfghjk
-=======
-            asdfgghjjkklklj
->>>>>>> ant1
+            ig ig ig ig ig ig ig ig ig ig
           </Footer>
         </Layout>
       </Layout>
